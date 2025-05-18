@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pincode Location Autofill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>📍 Address Finder using Pincode</h2>
+
+        <label>Pincode:</label>
+        <input type="text" id="pincode" placeholder="Enter Pincode" onblur="getLocation()">
+
+        <label>City:</label>
+        <input type="text" id="city" readonly>
+
+        <label>District:</label>
+        <input type="text" id="district" readonly>
+
+        <label>Country:</label>
+        <input type="text" id="country" readonly>
+
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
